@@ -3,9 +3,9 @@ import Home from "./routes/Home/index.tsx"
 import LinhaDoTempo from "./routes/LinhaDoTempo/index.tsx"
 import Acontecimentos from "./routes/Acontecimentos/index.tsx"
 import Elenco from "./routes/Elenco/index.tsx"
-import Ídolos from "./routes/Idolos/index.tsx"
-import Estádio from "./routes/Estadio/index.tsx"
-import Clássicos from "./routes/Classicos/index.tsx"
+import Idolos from "./routes/Idolos/index.tsx"
+import Estadio from "./routes/Estadio/index.tsx"
+import Classicos from "./routes/Classicos/index.tsx"
 
 function App() {
   return (
@@ -15,9 +15,9 @@ function App() {
         <Route path="/linha-do-tempo" element={<LinhaDoTempo />} />    
         <Route path="/acontecimentos" element={<Acontecimentos />} />
         <Route path="/elenco" element={<Elenco />} />
-        <Route path="/idolos" element={<Ídolos />} />
-        <Route path="/estadio" element={<Estádio />} />
-        <Route path="/classicos" element={<Clássicos />} />
+        <Route path="/idolos" element={<Idolos />} />
+        <Route path="/estadio" element={<Estadio />} />
+        <Route path="/classicos" element={<Classicos />} />
       </Routes>
     </BrowserRouter>
   );
