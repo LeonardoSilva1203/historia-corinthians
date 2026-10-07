@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./routes/Home/index.tsx"
-import LinhaDoTempo from "./routes/LinhaDoTempo/index.tsx"
-import Acontecimentos from "./routes/Acontecimentos/index.tsx"
-import Elenco from "./routes/Elenco/index.tsx"
-import Idolos from "./routes/Idolos/index.tsx"
-import Estadio from "./routes/Estadio/index.tsx"
-import Classicos from "./routes/Classicos/index.tsx"
+import Home from "./routes/Home/index.tsx" //1
+import LinhaDoTempo from "./routes/LinhaDoTempo/index.tsx" //2
+import Acontecimentos from "./routes/Acontecimentos/index.tsx"//3
+import Elenco from "./routes/Elenco/index.tsx" //6
+import Idolos from "./routes/Idolos/index.tsx" //4
+import Estadio from "./routes/Estadio/index.tsx" //7
+import Classicos from "./routes/Classicos/index.tsx" //5
 
 function App() {
   return (
